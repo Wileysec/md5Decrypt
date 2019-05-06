@@ -140,7 +140,10 @@ def main(md5):
         thead = "t" + str(i)
         try:
             thead = threading.Thread(target=eval(func), args=(md5,))
+            thead.setDaemon(True)
+            thead.daemon = True
             thead.start()
+            thead.join()
         except:
             print(Fore.RED + " [-] 很抱歉，出错了。可能操作过于频繁。\n")
 
