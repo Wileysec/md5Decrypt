@@ -8,6 +8,8 @@ MD5 multi-interface query decryption value
 
 usage: python3 md5.py
 
+运行完后，如果程序还未退出，有可能是你的网速或者是某个md5解密网站速度较慢，请耐心等待~
+
 如果大家有好的免费的MD5接口可以分享一下啦，做这个脚本就是为了方便大家去查md5，而不用手动一个一个去查了。
 
 感谢大家的支持！
